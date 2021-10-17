@@ -9,7 +9,7 @@ Simple procedural macro crate that *"hides"* string literals in the binary in **
 hoax = "1.0.0"
 ```
 
-### *hoax!*
+### *[hoax!](https://docs.rs/hoax/1.0.0/hoax/macro.hoax.html)*
 Panics only when the first token tree is not a string literal, any followings are ignored. <br>
 Returns a `String` collected from a vector of chars.
 
